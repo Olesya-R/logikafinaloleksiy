@@ -1,0 +1,89 @@
+body {
+
+background: hsla(109, 91%, 34%, 1);
+
+background: linear-gradient(90deg, hsla(109, 91%, 34%, 1) 0%, hsla(126, 8%, 47%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(109, 91%, 34%, 1) 0%, hsla(126, 8%, 47%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(109, 91%, 34%, 1) 0%, hsla(126, 8%, 47%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#25A708", endColorstr="#6F8271", GradientType=1 );
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(20, 138, 69);
+}
+p{
+    color:#5c1163;
+}
+
+h1{
+    text-align: center;
+    background-color: greenyellow;
+    padding: 30px 15px;
+    margin: 0;
+    color: hsla(109, 91%, 34%, 1);
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px black;
+}
+ol {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    text-align: center;
+}
+
+.block2 {
+    display: flex;
+}
+
+h3{
+    text-align: center;
+}
+
+.sonic{
+    background-color: rgb(120, 197, 6);
+    font-size: 30px;
+    
+}
+
+.block1{
+    
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+
+.block1-wrapper .block1:hover{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
+
+.block1-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block3{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    background-color: greenyellow;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+footer a {
+     color:#5c1163;
+}
